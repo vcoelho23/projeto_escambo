@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  namespace :backoffice do
+  get 'dashboard/index'
+  end
+
   get 'home/index'
   root 'home#index'
   devise_for :admins
