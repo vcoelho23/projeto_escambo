@@ -16,10 +16,11 @@ categories = ["Animais e acessórios",
 	"Moda e beleza",
 	"Veículos e barcos",
 	"Imóveis",
-	"Empregos e negócios"
+	"Empregos e negócios",
+	"Informática"
 ]
 
-
+#cria as categorias para inicializar a aplicação.
 categories.each do |category|
 	Category.find_or_create_by(description: category)
 end
