@@ -26,3 +26,8 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+
+* Aplicação Escambo.
+* Similar ao mercado livre, com template OLX para utilização de compra e venda de produtos. 
+* permite cadastrar os produtos, enviar mensagem perguntando informações e permite fazer os pagamentos utilizando api do Pague Seguro,essa funcionalidade estará disponível dentro de algums dias o projeto segue em andamento diversas modificações ainda estão em git não efetuei push.
